@@ -3,6 +3,11 @@
 
 # AI Supported Software Development Process
 
+
+![alt text](image.png)
+
+
+
 Das Bild zeigt einen **agentenbasierten Prozess für agile Softwareentwicklung** entlang typischer **SCRUM-Prozessschritte** – von der Backlog-Verfeinerung bis zur Code-Review – und stellt dabei eine **moderne, KI-gestützte Entwicklungsumgebung** dar.
 
 ---
@@ -72,7 +77,6 @@ Wenn du möchtest, kann ich dir basierend auf diesem Modell auch eine **praktisc
 
 
 
-![alt text](image.png)
 
 
 
