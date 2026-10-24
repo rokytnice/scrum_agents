@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 720" role="img" aria-labelledby="t d">
+<title id="t">AI supported software development process</title>
+<desc id="d">Animated flow through the five SCRUM phases: backlog refinement, planning 1, planning 2, testing and code review. In each phase an agent takes an input and produces an output.</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7fb3bb"/></marker></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.bg{fill:#0f1720}.sub{fill:#94a3b8;font-size:14px}.hdr{fill:#0b5560;stroke:#2b8a99}
+.h{fill:#fff;font-size:17px;font-weight:700}.num{fill:#0f1720;font-size:14px;font-weight:800}
+.box{fill:#162330;stroke:#2b4a58}.agent{fill:#0b5560;stroke:#2b8a99;stroke-width:1.5}
+.lbl{fill:#7fb3bb;font-size:11px;letter-spacing:.12em;font-weight:700}.tx{fill:#e2e8f0;font-size:13px}
+.ag{fill:#fff;font-size:16px;font-weight:700}.ln{stroke:#7fb3bb;stroke-width:2}
+.glow{fill:none;stroke:#22c55e;stroke-width:3}.more{fill:#131d28;stroke:#2b4a58}
+.mh{fill:#fff;font-size:15px;font-weight:700}.tx2{fill:#cbd5e1;font-size:14px}.bb{fill:#22c55e;font-weight:700}
+circle[class^=k]{fill:#22c55e}.pgbg{fill:#1e2d3a}.pg{fill:#22c55e}
+@keyframes act0{0%,0.00%{opacity:0}0.80%,19.20%{opacity:1}20.00%,100%{opacity:0}}.g0{animation:act0 25s infinite;opacity:0}
+@keyframes tok0{0%,0.00%{transform:translateY(0);opacity:0}0.80%,6.00%{transform:translateY(0);opacity:1}9.00%,13.00%{transform:translateY(120px);opacity:1}17.00%{transform:translateY(250px);opacity:1}20.00%,100%{transform:translateY(250px);opacity:0}}.k0{animation:tok0 25s infinite;opacity:0}
+@keyframes num0{0%,0.00%{fill:#2b6f7a}0.80%,19.20%{fill:#22c55e}20.00%,100%{fill:#2b6f7a}}.n0{animation:num0 25s infinite;fill:#2b6f7a}
+@keyframes act1{0%,20.00%{opacity:0}20.80%,39.20%{opacity:1}40.00%,100%{opacity:0}}.g1{animation:act1 25s infinite;opacity:0}
+@keyframes tok1{0%,20.00%{transform:translateY(0);opacity:0}20.80%,26.00%{transform:translateY(0);opacity:1}29.00%,33.00%{transform:translateY(120px);opacity:1}37.00%{transform:translateY(250px);opacity:1}40.00%,100%{transform:translateY(250px);opacity:0}}.k1{animation:tok1 25s infinite;opacity:0}
+@keyframes num1{0%,20.00%{fill:#2b6f7a}20.80%,39.20%{fill:#22c55e}40.00%,100%{fill:#2b6f7a}}.n1{animation:num1 25s infinite;fill:#2b6f7a}
+@keyframes act2{0%,40.00%{opacity:0}40.80%,59.20%{opacity:1}60.00%,100%{opacity:0}}.g2{animation:act2 25s infinite;opacity:0}
+@keyframes tok2{0%,40.00%{transform:translateY(0);opacity:0}40.80%,46.00%{transform:translateY(0);opacity:1}49.00%,53.00%{transform:translateY(120px);opacity:1}57.00%{transform:translateY(250px);opacity:1}60.00%,100%{transform:translateY(250px);opacity:0}}.k2{animation:tok2 25s infinite;opacity:0}
+@keyframes num2{0%,40.00%{fill:#2b6f7a}40.80%,59.20%{fill:#22c55e}60.00%,100%{fill:#2b6f7a}}.n2{animation:num2 25s infinite;fill:#2b6f7a}
+@keyframes act3{0%,60.00%{opacity:0}60.80%,79.20%{opacity:1}80.00%,100%{opacity:0}}.g3{animation:act3 25s infinite;opacity:0}
+@keyframes tok3{0%,60.00%{transform:translateY(0);opacity:0}60.80%,66.00%{transform:translateY(0);opacity:1}69.00%,73.00%{transform:translateY(120px);opacity:1}77.00%{transform:translateY(250px);opacity:1}80.00%,100%{transform:translateY(250px);opacity:0}}.k3{animation:tok3 25s infinite;opacity:0}
+@keyframes num3{0%,60.00%{fill:#2b6f7a}60.80%,79.20%{fill:#22c55e}80.00%,100%{fill:#2b6f7a}}.n3{animation:num3 25s infinite;fill:#2b6f7a}
+@keyframes act4{0%,80.00%{opacity:0}80.80%,99.20%{opacity:1}100.00%,100%{opacity:0}}.g4{animation:act4 25s infinite;opacity:0}
+@keyframes tok4{0%,80.00%{transform:translateY(0);opacity:0}80.80%,86.00%{transform:translateY(0);opacity:1}89.00%,93.00%{transform:translateY(120px);opacity:1}97.00%{transform:translateY(250px);opacity:1}100.00%,100%{transform:translateY(250px);opacity:0}}.k4{animation:tok4 25s infinite;opacity:0}
+@keyframes num4{0%,80.00%{fill:#2b6f7a}80.80%,99.20%{fill:#22c55e}100.00%,100%{fill:#2b6f7a}}.n4{animation:num4 25s infinite;fill:#2b6f7a}
+@keyframes prog{from{width:0}to{width:1328px}}.pg{animation:prog 25s linear infinite;width:0}
+@media (prefers-reduced-motion:reduce){[class^=g],[class^=k],[class^=n],.pg{animation:none!important}.g0{opacity:1}}
+</style>
+<rect class="bg" width="1400" height="720"/>
+<g>
+<circle class="n0" cx="69.0" cy="56" r="14"/><text x="69.0" y="61" text-anchor="middle" class="num">1</text>
+<rect x="47.0" y="86" width="250" height="52" rx="8" class="hdr"/><text x="172.0" y="118" text-anchor="middle" class="h">Backlog Refinement</text>
+<rect x="57.0" y="170" width="230" height="70" rx="8" class="box"/><text x="172.0" y="190" text-anchor="middle" class="lbl">INPUT</text><text x="172.0" y="212" text-anchor="middle" class="tx">User story</text><text x="172.0" y="229" text-anchor="middle" class="tx">Acceptance criteria, DoR</text>
+<line x1="172.0" y1="240" x2="172.0" y2="298" class="ln" marker-end="url(#ah)"/>
+<rect x="57.0" y="300" width="230" height="80" rx="8" class="agent"/><text x="172.0" y="334" text-anchor="middle" class="ag">Backlog Agent</text><text x="172.0" y="360" text-anchor="middle" class="tx">"Review user story"</text>
+<line x1="172.0" y1="380" x2="172.0" y2="428" class="ln" marker-end="url(#ah)"/>
+<rect x="57.0" y="430" width="230" height="70" rx="8" class="box"/><text x="172.0" y="450" text-anchor="middle" class="lbl">OUTPUT</text><text x="172.0" y="472" text-anchor="middle" class="tx">Reworked story</text><text x="172.0" y="489" text-anchor="middle" class="tx">+ comments</text>
+<g class="g0"><rect x="43.0" y="82" width="258" height="424" rx="12" class="glow"/></g>
+<circle class="k0" cx="172.0" cy="262" r="8"/>
+</g>
+<g>
+<circle class="n1" cx="333.0" cy="56" r="14"/><text x="333.0" y="61" text-anchor="middle" class="num">2</text>
+<rect x="311.0" y="86" width="250" height="52" rx="8" class="hdr"/><text x="436.0" y="118" text-anchor="middle" class="h">Planning 1</text>
+<rect x="321.0" y="170" width="230" height="70" rx="8" class="box"/><text x="436.0" y="190" text-anchor="middle" class="lbl">INPUT</text><text x="436.0" y="212" text-anchor="middle" class="tx">Stories, backlog,</text><text x="436.0" y="229" text-anchor="middle" class="tx">time-off calendar</text>
+<line x1="436.0" y1="240" x2="436.0" y2="298" class="ln" marker-end="url(#ah)"/>
+<rect x="321.0" y="300" width="230" height="80" rx="8" class="agent"/><text x="436.0" y="334" text-anchor="middle" class="ag">Planning Agent</text><text x="436.0" y="360" text-anchor="middle" class="tx">"Check dependencies"</text>
+<line x1="436.0" y1="380" x2="436.0" y2="428" class="ln" marker-end="url(#ah)"/>
+<rect x="321.0" y="430" width="230" height="70" rx="8" class="box"/><text x="436.0" y="450" text-anchor="middle" class="lbl">OUTPUT</text><text x="436.0" y="472" text-anchor="middle" class="tx">Planning verification</text><text x="436.0" y="489" text-anchor="middle" class="tx">→ team chat</text>
+<g class="g1"><rect x="307.0" y="82" width="258" height="424" rx="12" class="glow"/></g>
+<circle class="k1" cx="436.0" cy="262" r="8"/>
+</g>
+<g>
+<circle class="n2" cx="597.0" cy="56" r="14"/><text x="597.0" y="61" text-anchor="middle" class="num">3</text>
+<rect x="575.0" y="86" width="250" height="52" rx="8" class="hdr"/><text x="700.0" y="118" text-anchor="middle" class="h">Planning 2</text>
+<rect x="585.0" y="170" width="230" height="70" rx="8" class="box"/><text x="700.0" y="190" text-anchor="middle" class="lbl">INPUT</text><text x="700.0" y="212" text-anchor="middle" class="tx">User story,</text><text x="700.0" y="229" text-anchor="middle" class="tx">project code</text>
+<line x1="700.0" y1="240" x2="700.0" y2="298" class="ln" marker-end="url(#ah)"/>
+<rect x="585.0" y="300" width="230" height="80" rx="8" class="agent"/><text x="700.0" y="334" text-anchor="middle" class="ag">Specification Agent</text><text x="700.0" y="360" text-anchor="middle" class="tx">"Create specification"</text>
+<line x1="700.0" y1="380" x2="700.0" y2="428" class="ln" marker-end="url(#ah)"/>
+<rect x="585.0" y="430" width="230" height="70" rx="8" class="box"/><text x="700.0" y="450" text-anchor="middle" class="lbl">OUTPUT</text><text x="700.0" y="472" text-anchor="middle" class="tx">Spec file</text><text x="700.0" y="489" text-anchor="middle" class="tx">+ code comments</text>
+<g class="g2"><rect x="571.0" y="82" width="258" height="424" rx="12" class="glow"/></g>
+<circle class="k2" cx="700.0" cy="262" r="8"/>
+</g>
+<g>
+<circle class="n3" cx="861.0" cy="56" r="14"/><text x="861.0" y="61" text-anchor="middle" class="num">4</text>
+<rect x="839.0" y="86" width="250" height="52" rx="8" class="hdr"/><text x="964.0" y="118" text-anchor="middle" class="h">Testing</text>
+<rect x="849.0" y="170" width="230" height="70" rx="8" class="box"/><text x="964.0" y="190" text-anchor="middle" class="lbl">INPUT</text><text x="964.0" y="212" text-anchor="middle" class="tx">User story,</text><text x="964.0" y="229" text-anchor="middle" class="tx">code repository</text>
+<line x1="964.0" y1="240" x2="964.0" y2="298" class="ln" marker-end="url(#ah)"/>
+<rect x="849.0" y="300" width="230" height="80" rx="8" class="agent"/><text x="964.0" y="334" text-anchor="middle" class="ag">Testing Agent</text><text x="964.0" y="360" text-anchor="middle" class="tx">"Generate test cases"</text>
+<line x1="964.0" y1="380" x2="964.0" y2="428" class="ln" marker-end="url(#ah)"/>
+<rect x="849.0" y="430" width="230" height="70" rx="8" class="box"/><text x="964.0" y="450" text-anchor="middle" class="lbl">OUTPUT</text><text x="964.0" y="472" text-anchor="middle" class="tx">Runnable tests</text><text x="964.0" y="489" text-anchor="middle" class="tx">per criterion</text>
+<g class="g3"><rect x="835.0" y="82" width="258" height="424" rx="12" class="glow"/></g>
+<circle class="k3" cx="964.0" cy="262" r="8"/>
+</g>
+<g>
+<circle class="n4" cx="1125.0" cy="56" r="14"/><text x="1125.0" y="61" text-anchor="middle" class="num">5</text>
+<rect x="1103.0" y="86" width="250" height="52" rx="8" class="hdr"/><text x="1228.0" y="118" text-anchor="middle" class="h">Code Review</text>
+<rect x="1113.0" y="170" width="230" height="70" rx="8" class="box"/><text x="1228.0" y="190" text-anchor="middle" class="lbl">INPUT</text><text x="1228.0" y="212" text-anchor="middle" class="tx">DoD, criteria,</text><text x="1228.0" y="229" text-anchor="middle" class="tx">git branch</text>
+<line x1="1228.0" y1="240" x2="1228.0" y2="298" class="ln" marker-end="url(#ah)"/>
+<rect x="1113.0" y="300" width="230" height="80" rx="8" class="agent"/><text x="1228.0" y="334" text-anchor="middle" class="ag">Review Agent</text><text x="1228.0" y="360" text-anchor="middle" class="tx">"Review code"</text>
+<line x1="1228.0" y1="380" x2="1228.0" y2="428" class="ln" marker-end="url(#ah)"/>
+<rect x="1113.0" y="430" width="230" height="70" rx="8" class="box"/><text x="1228.0" y="450" text-anchor="middle" class="lbl">OUTPUT</text><text x="1228.0" y="472" text-anchor="middle" class="tx">TODO comments on</text><text x="1228.0" y="489" text-anchor="middle" class="tx">review branch</text>
+<g class="g4"><rect x="1099.0" y="82" width="258" height="424" rx="12" class="glow"/></g>
+<circle class="k4" cx="1228.0" cy="262" r="8"/>
+</g>
+<rect x="36" y="526" width="1328" height="6" rx="3" class="pgbg"/><rect x="36" y="526" height="6" rx="3" class="pg"/>
+<text x="36" y="556" class="sub">One sprint cycle: story in, verified result out. After code review the next backlog refinement starts.</text>
+<g transform="translate(36,570)"><rect width="1328" height="120" rx="10" class="more"/>
+<text x="20" y="30" class="mh">More agents on the same pattern</text>
+<text x="20" y="62" class="tx2"><tspan class="bb">Coding:</tspan> Security Agent · Unit Testing Agent · Architect Agent</text>
+<text x="20" y="88" class="tx2"><tspan class="bb">CI:</tspan> E2E Test Agent · Security Agent · Deployment Agent</text>
+<text x="700" y="62" class="tx2"><tspan class="bb">SCRUM:</tspan> Review, Planning, Test Case, Presentation Agents</text>
+<text x="700" y="88" class="tx2">Humans decide. Agents propose, check and warn.</text></g>
+</svg>

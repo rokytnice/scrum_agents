@@ -2,7 +2,9 @@
 
 Specialized AI agents in every phase of a SCRUM sprint, each with one narrow task and a clear input and output. The agents do routine checking and drafting. People keep the decisions.
 
-![Agents in the agile software development process](image.png)
+![Animated flow of the five SCRUM phases with one agent per phase](process.svg)
+
+<sub>The animation walks through one sprint: the highlighted phase is active, the green dot follows the data from input through the agent to the output. The [original diagram](image.png) is kept for reference.</sub>
 
 This repository holds the concept and the matching [Claude skills](skills/), one per agent. Related LinkedIn article: [Agents in Agile Software Development Process](https://www.linkedin.com/pulse/agents-agile-software-development-process-andre-rochlitz-sud0e/).
 
