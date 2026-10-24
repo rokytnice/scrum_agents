@@ -16,6 +16,7 @@ This repository holds the concept and the matching [Claude skills](skills/), one
 4. [Skills in this repository](#skills-in-this-repository)
 5. [Installing and using the skills](#installing-and-using-the-skills)
 6. [Further agents](#further-agents)
+   - [Integration into Jira, Confluence and Git](docs/integration-jira-confluence-git.md)
 7. [Guardrails](#guardrails)
 8. [Benefits and limits](#benefits-and-limits)
 9. [Introducing it step by step](#introducing-it-step-by-step)
@@ -110,6 +111,10 @@ Review branch feature/PROJ-142 against docs/dod.md (code-review-dod).
 ```
 
 The skills assume that the story, the Definition of Ready and the Definition of Done are available as text, for example in the repository or exported from the ticket system. How your tracker is connected (MCP server, export, copy and paste) is up to your setup.
+
+## Integration into Jira, Confluence and Git
+
+The agents work inside the tools a team already uses. Jira holds stories and sprints, Confluence holds the Definition of Ready and Done, the architecture and generated pages, and Git holds code, specs and review branches. Webhooks and CI events start the skills, and the results come back as comments, pages and branches. The full description with triggers, rules, a pipeline sketch and security notes is in [docs/integration-jira-confluence-git.md](docs/integration-jira-confluence-git.md).
 
 ## Further agents
 
